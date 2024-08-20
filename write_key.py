@@ -1,6 +1,6 @@
 from cryptography.fernet import Fernet
 
-# The following block of code to generate a key is commented out since you mentioned it's in another file.
+# The following block of code to generate a key 
 
 def write_key():
     key = Fernet.generate_key()
